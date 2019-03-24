@@ -1,12 +1,12 @@
 # Site settings
-title:
-email:
-description: > # this means to ignore newlines until "baseurl:"
+title: 陈十六的博客
+email: 15611551618@163.com
+description: "Stay hungry , Stay young" # this means to ignore newlines until "baseurl:"
 baseurl: "/together16.github.io" # the subpath of your site, e.g. /blog/
 url: "https://together16.github.io" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+twitter_username: ToGetHer16
+github_username: ToGetHer16
 
 # Build settings
 markdown: kramdown
