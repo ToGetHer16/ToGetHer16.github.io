@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the Theme
+title: 十六的书单
 tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
 comments: false
@@ -19,6 +19,8 @@ comments: false
 * Optional background image
 * Simple navigation menu
 * MathJax support
+<center><a href="https://github.com/ToGetHer16/ToGetHer/blob/master/Hadoop"><b>黄金屋</b></a></center>
+<center><a href="hhttps://github.com/ToGetHer16/ToGetHer/blob/master/Spark"><b>颜如玉</b></a></center>
 
 ## Preview
 
@@ -28,7 +30,7 @@ comments: false
 {% endcapture %}
 {% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+See a [live version of shiliu](http://together16.github.io) hosted on GitHub.
 
 ## Getting Started
 
