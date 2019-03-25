@@ -10,10 +10,10 @@ comments: false
 -->
 ## 个人简介
 * 并不牛X，但会牛X
-<!--
+
 <center><a href="https://github.com/ToGetHer16/ToGetHer/blob/master/Hadoop"><b>黄金屋</b></a></center>
 <center><a href="hhttps://github.com/ToGetHer16/ToGetHer/blob/master/Spark"><b>颜如玉</b></a></center>
--->
+
 ## 有待补充
 
 {% capture images %}
