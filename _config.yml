@@ -38,13 +38,14 @@ disqus_shortname:   taylantatli
   #ad-slot:
 #bing-verify:
 email:              ToGetHer1618@163.com
-twitter:            ToGetHer16
+#twitter:            ToGetHer16
 #facebook:           ToGerHer16
 github-url:         ToGetHer16/ToGetHer16.github.io
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+stackoverflow:      from a "http://stackoverflow.com" link
+#stackoverflow:      123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          ToGerHer16
+#instagram:          ToGerHer16
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
@@ -55,7 +56,7 @@ instagram:          ToGerHer16
 #youtube:           username
 #youtube-channel:   channel
 #soundcloud:        username
-weibo:             ToGerHer16
+#weibo:             ToGerHer16
 #flickr:            username
 #codepen:           username
 #keybase:           username
