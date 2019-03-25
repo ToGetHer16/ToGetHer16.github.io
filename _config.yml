@@ -48,7 +48,7 @@ stackoverflow:      11252599/陈十六   from a "http://stackoverflow.com/users/
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
-#pinterest:         username
+pinterest:         
 #foursquare:        username
 #steam:              ToGerHer16
 #dribbble:          username
@@ -60,7 +60,7 @@ stackoverflow:      11252599/陈十六   from a "http://stackoverflow.com/users/
 #codepen:           username
 #keybase:           username
 #xmpp:              username@server.com
-hackernews:        ToGetHer16
+hackernews:        
 
 # Gems
 gems:
