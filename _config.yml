@@ -52,7 +52,7 @@ pinterest:         ''
 #foursquare:        username
 #steam:              ToGerHer16
 #dribbble:          username
-#youtube:           username
+youtube:           ''
 #youtube-channel:   channel
 #soundcloud:        username
 #weibo:             ToGerHer16
@@ -60,7 +60,7 @@ pinterest:         ''
 #codepen:           username
 #keybase:           username
 #xmpp:              username@server.com
-hackernews:        ''
+#hackernews:        ''
 
 # Gems
 gems:
