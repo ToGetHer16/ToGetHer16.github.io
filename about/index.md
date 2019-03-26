@@ -17,7 +17,7 @@ comments: false
 * 很高兴你的到来，我相信缘分，相信命中有你，那就祝您生活顺遂吧
 
 ## 关于更新
-* 工作太忙，有时间就会更新一些内容，共同学习哦~
+* 工作太忙，有时间就会更新一些内容，欢迎指点一二共同学习哦~
 
 ## 还没想好
 To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
