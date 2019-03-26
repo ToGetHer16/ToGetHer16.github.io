@@ -6,11 +6,10 @@ date: 2016-03-21
 comments: false
 ---
 ![梦想天空分外蓝](http://poykjx8e5.bkt.clouddn.com/PinkCloud.png)
+
 ## 个人简介
-* 我叫十六
 * 普通的十六是一个普通的程序员，在普通的每一天写着普通的代码
 * 虽然十六的每一天都过得很普通，但它仍然有一个并不普通的梦想
-* 成为大牛
 
 ## 欢迎光临
 * 在普通的某一天，你来到了这个普通的Pages，这里开始变得不普通
@@ -19,6 +18,4 @@ comments: false
 ## 关于更新
 * 工作太忙，有时间就会更新一些内容，欢迎指点一二共同学习哦~
 
-## 还没想好
-<center>[陈十六](https://together.github.io){: .btn}</center>
 
