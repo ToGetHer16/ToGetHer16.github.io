@@ -5,7 +5,7 @@ tags: [陈十六, 梦想]
 date: 2016-03-21
 comments: false
 ---
-<center><a href="http://poykjx8e5.bkt.clouddn.com/PinkCloud.png"><b>梦想天空分外蓝</b></a></center>
+![梦想天空分外蓝](http://poykjx8e5.bkt.clouddn.com/PinkCloud.png)
 ## 个人简介
 * 我叫十六
 * 普通的十六是一个普通的程序员，在普通的每一天写着普通的代码
@@ -20,6 +20,5 @@ comments: false
 * 工作太忙，有时间就会更新一些内容，欢迎指点一二共同学习哦~
 
 ## 还没想好
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+<center>[陈十六](https://together.github.io){: .btn}</center>
 
