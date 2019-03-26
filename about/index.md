@@ -1,35 +1,25 @@
 ---
 layout: page
 title: 一个人的朝圣
-tags: [陈十六, 朝圣, 努力, 加油]
+tags: [陈十六, 梦想]
 date: 2016-03-21
 comments: false
 ---
-<!--    
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
--->
+<center><a href="http://poykjx8e5.bkt.clouddn.com/PinkCloud.png"><b>梦想天空分外蓝</b></a></center>
 ## 个人简介
-* 并不牛X，但会牛X
+* 我叫十六
+* 普通的十六是一个普通的程序员，在普通的每一天写着普通的代码
+* 虽然十六的每一天都过得很普通，但它仍然有一个并不普通的梦想
+* 成为大牛
 
-<center><a href="https://github.com/ToGetHer16/ToGetHer/blob/master/Hadoop"><b>黄金屋</b></a></center>
-<center><a href="hhttps://github.com/ToGetHer16/ToGetHer/blob/master/Spark"><b>颜如玉</b></a></center>
+## 欢迎光临
+* 在普通的某一天，你来到了这个普通的Pages，这里开始变得不普通
+* 很高兴你的到来，我相信缘分，相信命中有你，那就祝您生活顺遂吧
 
-## 有待补充
+## 关于更新
+* 工作太忙，有时间就会更新一些内容，共同学习哦~
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
-{% capture images %}
-    http://poykjx8e5.bkt.clouddn.com/bg.png
-{% endcapture %}
-<!--
-See a [live version of shiliu](http://together16.github.io) hosted on GitHub.
--->
 ## 还没想好
-<!--
 To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
 [Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
--->
+
