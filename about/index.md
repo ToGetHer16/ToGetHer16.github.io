@@ -21,6 +21,9 @@ comments: false
     https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
 {% endcapture %}
 {% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+{% capture images %}
+    http://poykjx8e5.bkt.clouddn.com/bg.png
+{% endcapture %}
 <!--
 See a [live version of shiliu](http://together16.github.io) hosted on GitHub.
 -->
