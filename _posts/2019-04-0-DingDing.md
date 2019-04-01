@@ -16,9 +16,11 @@ comments: true
 
 # 1.获取自定义机器人
 &emsp;点击左上角自己的头像，点击`机器人管理`，在机器人管理页面选择`自定义机器人`，输入机器人名字并选择要发送消息的群。如果需要的话，可以为机器人设置一个头像，点击`完成`。并复制机器人对应的Webhook地址。
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401232834630.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401232900488.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401232914431.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
+
 # 2.使用自定义机器人
 * 获取到Webhook地址后，用户可以使用任何方式访问这个地址发起HTTP POST请求，即可实现给群组发送消息。注意，发起POST请求时，必须要将字符集编码设置成UTF-8.
 * 当前机器人支持文本（text）、连接（link）、markdown（markdown）三种消息类型，大家可以根据自己的使用场景选择合适的消息类型，达到最好的展示样式。
@@ -60,6 +62,7 @@ comments: true
 |isAtall | false | bool | @所有人时为ture，否则为false|
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401233139326.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
+
 ## 3.2 link类型
 ```
 {
@@ -79,7 +82,9 @@ title | true | string | 消息标题
 text | true | string |内容消息，如果太长只会显示一部分
 messageUrl | true | string | 点击消息跳转的url
 picUrl | false | string | 图片url
+
 ![line消息](https://img-blog.csdnimg.cn/20190401233229301.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
+
 ## 3.3 markdown类型
 ```
 {
@@ -150,6 +155,7 @@ isAtall | false | bool | @所有人时为ture，否则为false
     "msgtype": "actionCard"
 }
 ```
+
 参数 | 必选 | 类型 | 说明
 :-: | :-: | :-: | :-: |
 msgtype | true | string |此消息类型为固定actionCard
@@ -159,6 +165,7 @@ singleTitle | true | string | 单个按钮的方案（设置此项和singleURL�
 singleURL | true | string | 点击singleTitle按钮触发的URL
 btnOrientation | false | string |0-按钮竖直排列，1-按钮横向排列
 hideAvatar | false | string | 0-正常发消息者头像，1-隐藏发消息者头像
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401233534847.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
 
 ### 3.4.2 独立跳转ActionCard类型
@@ -191,7 +198,9 @@ text | true | string | markdown消息格式
 btns | true | array | 按钮的信息：title-按钮方案，actionURL-点击按钮触发URL
 btnOrientation | false | string | 0-按钮竖直排列，1-按钮横向排列
 hideAvatar | false | string | 0-正常发消息者头像，1-隐藏发消息者头像
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401233617732.png)
+
 ## 3.5 FeedCard类型
 ```
 {
@@ -212,15 +221,20 @@ hideAvatar | false | string | 0-正常发消息者头像，1-隐藏发消息者�
     "msgtype": "feedCard"
 }
 ```
+
 参数 | 必选 | 类型 | 说明
 :-: | :-: | :-: | :-: |
 msgtype | true | string |此消息类型为固定feedCard
 title | true | string | 单条信息文本
 messageURL | true | string |点击单挑信息到跳转链接
 picURL | true | string | 单条信息后面图片的URL
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401233733286.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
+
 # 4.测试自定义机器人
+
 * 使用命令行工具
+
 ```
 curl 'https://oapi.dingtalk.com/robot/send?access_token=xxxxxxxx' \
    -H 'Content-Type: application/json' \
@@ -231,7 +245,9 @@ curl 'https://oapi.dingtalk.com/robot/send?access_token=xxxxxxxx' \
      }
   }'
 ```
+
 * Java程序测试
+
 ```
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
@@ -265,7 +281,9 @@ public class ChatbotSend {
     }
 }
 ```
+
 * PHP程序测试
+
 ```
 <?php  
   
@@ -296,6 +314,7 @@ echo $result;
  
 ?>
 ```
+
 # 5.注
 * 每个机器人每分钟最多发送20条。
 * 当前机器人尚不支持应答机制
@@ -303,12 +322,14 @@ echo $result;
 # 6.个人项目
 &emsp;编写脚本定时执行，监控这一天中的某种指定类型的任务是否成功，前提是改任务会在开始和成功的时候向指定文件中增加一条指定格式的日志。
 &emsp;监控的文件格式：当任务启动时，会向`/data/exportData/${year}/${month}/${day}/import-data-taskflow.${time}`中插入一条以0开头的日志，如果成功了就会插入一条以1开头的日志，如果未成功，则不会插入数据。
+
 ```
 0,任务一,2019-03-17_03:11:16,陈十六,156xxxx16xx
 0,任务二,2019-03-16_16:16:10,小可乐,156xxxx16xx
 1,任务一,2019-03-17_03:16:16,陈十六,156xxxx16xx
 ```
 &emsp;执行脚本
+
 ```
 #!/bin/bash
 
@@ -375,7 +396,9 @@ Body="嘿~小伙伴们 小艾提醒您：\n\n------------------${time}同步执�
 #调用发送方法
 SendMessageToDingding $Body $Dingding_Url
 ```
+
 &emsp;结果展示
+
 ```
 嘿~小伙伴们 小艾提醒您：
 
