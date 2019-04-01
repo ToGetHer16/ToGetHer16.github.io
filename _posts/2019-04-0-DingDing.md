@@ -44,22 +44,14 @@ comments: true
  }
 ```
 
-| 参数 | 必选 | 类型 | 说明 |
-|:--------|:-------:|--------:|--------:|
-| msgtype   | true   | string   | 此消息类型为固定text |
-| content   | true   | string   | 内容消息 |
-|----
-| atMobiles   | false   | string   | 被@人手机号
-| isAtall   | false   | bool   | @所有人时为ture，否则为false
-|=====
-{: rules="groups"}
-
 |参数 | 必选 | 类型 | 说明|
 |:-: | :-: | :-: | :-: |
 |msgtype | true | string |此消息类型为固定text|
 |content | true | string |内容消息|
 |atMobiles| false | string | 被@人手机号|
 |isAtall | false | bool | @所有人时为ture，否则为false|
+|----
+{: rules="groups"}
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401233139326.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
 
@@ -75,6 +67,7 @@ comments: true
     }
 }
 ```
+
 参数 | 必选 | 类型 | 说明
 :-: | :-: | :-: | :-: |
 msgtype | true | string |此消息类型为固定link
@@ -82,6 +75,7 @@ title | true | string | 消息标题
 text | true | string |内容消息，如果太长只会显示一部分
 messageUrl | true | string | 点击消息跳转的url
 picUrl | false | string | 图片url
+{: rules="groups"}
 
 ![line消息](https://img-blog.csdnimg.cn/20190401233229301.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
 
@@ -100,6 +94,7 @@ picUrl | false | string | 图片url
     }
  }
 ```
+
 参数 | 必选 | 类型 | 说明
 :-: | :-: | :-: | :-: |
 msgtype | true | string |此消息类型为固定markdown
@@ -107,7 +102,10 @@ title | true | string | 首屏会话透出的展示内容
 text | true | string | markdown消息格式
 atMobiles| false | string | 被@人手机号（在text内容里要有@手机号）
 isAtall | false | bool | @所有人时为ture，否则为false
+{: rules="groups"}
+
 ![markdown消息](https://img-blog.csdnimg.cn/20190401233422396.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
+
 说明：目前只支持markdown语法的子集，具体支持的元素如下：
 ```
 标题
@@ -190,6 +188,7 @@ hideAvatar | false | string | 0-正常发消息者头像，1-隐藏发消息者�
     "msgtype": "actionCard"
 }
 ```
+
 参数 | 必选 | 类型 | 说明
 :-: | :-: | :-: | :-: |
 msgtype | true | string |此消息类型为固定actionCard
