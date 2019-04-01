@@ -58,6 +58,8 @@ comments: true
 | content | true | string | 内容消息 |
 | atMobiles| false | string | 被@人手机号 |
 | isAtall | false | bool | @所有人时为ture，否则为false |
+{: rules="groups"}
+
 ![text消息]()
 
 ## 3.2 link类型
