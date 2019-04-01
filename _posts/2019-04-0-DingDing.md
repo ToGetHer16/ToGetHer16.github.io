@@ -234,13 +234,12 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
- 
 public class ChatbotSend {
 
     public static String WEBHOOK_TOKEN = "https://oapi.dingtalk.com/robot/send?access_token=xxxxxx";
 
     public static void main(String args[]) throws Exception{
-
+    
         HttpClient httpclient = HttpClients.createDefault();
 
         HttpPost httppost = new HttpPost(WEBHOOK_TOKEN);
