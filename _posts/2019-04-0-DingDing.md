@@ -50,7 +50,6 @@ comments: true
 |content | true | string |内容消息|
 |atMobiles| false | string | 被@人手机号|
 |isAtall | false | bool | @所有人时为ture，否则为false|
-|----
 {: rules="groups"}
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401233139326.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
@@ -163,6 +162,7 @@ singleTitle | true | string | 单个按钮的方案（设置此项和singleURL�
 singleURL | true | string | 点击singleTitle按钮触发的URL
 btnOrientation | false | string |0-按钮竖直排列，1-按钮横向排列
 hideAvatar | false | string | 0-正常发消息者头像，1-隐藏发消息者头像
+{: rules="groups"}
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401233534847.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
 
@@ -197,6 +197,7 @@ text | true | string | markdown消息格式
 btns | true | array | 按钮的信息：title-按钮方案，actionURL-点击按钮触发URL
 btnOrientation | false | string | 0-按钮竖直排列，1-按钮横向排列
 hideAvatar | false | string | 0-正常发消息者头像，1-隐藏发消息者头像
+{: rules="groups"}
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401233617732.png)
 
@@ -227,6 +228,7 @@ msgtype | true | string |此消息类型为固定feedCard
 title | true | string | 单条信息文本
 messageURL | true | string |点击单挑信息到跳转链接
 picURL | true | string | 单条信息后面图片的URL
+{: rules="groups"}
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401233733286.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
 
