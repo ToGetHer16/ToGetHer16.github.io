@@ -12,15 +12,13 @@ tag:
 feature: http://poykjx8e5.bkt.clouddn.com/PinkCloud.png
 comments: true
 ---
+<center><a href="https://open-doc.dingtalk.com/docs/doc.htm?spm=a219a.7386797.0.0.EtVzwK&source=search&treeId=257&articleId=105735&docType=1#s0"><b>十六的传送门</b></a></center>
+
 # 1.获取自定义机器人
 &emsp;点击左上角自己的头像，点击`机器人管理`，在机器人管理页面选择`自定义机器人`，输入机器人名字并选择要发送消息的群。如果需要的话，可以为机器人设置一个头像，点击`完成`。并复制机器人对应的Webhook地址。
-
-![获取机器人]()
-
-![获取机器人2]()
-
-![获取机器人3]()
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401232834630.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401232900488.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401232914431.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
 # 2.使用自定义机器人
 * 获取到Webhook地址后，用户可以使用任何方式访问这个地址发起HTTP POST请求，即可实现给群组发送消息。注意，发起POST请求时，必须要将字符集编码设置成UTF-8.
 * 当前机器人支持文本（text）、连接（link）、markdown（markdown）三种消息类型，大家可以根据自己的使用场景选择合适的消息类型，达到最好的展示样式。
@@ -43,26 +41,13 @@ comments: true
      }
  }
 ```
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=====
-| Foot1   | Foot2   | Foot3
-{: rules="groups"}
-| 参数 | 必选 | 类型 | 说明 |
-| :-------- | :-------- | :------: | ------: |
-| msgtype | true | string |此消息类型为固定text |
-| content | true | string | 内容消息 |
-| atMobiles| false | string | 被@人手机号 |
-| isAtall | false | bool | @所有人时为ture，否则为false |
-{: rules="groups"}
-
-![text消息]()
-
+参数 | 必选 | 类型 | 说明
+:-: | :-: | :-: | :-: |
+msgtype | true | string |此消息类型为固定text
+content | true | string |内容消息
+atMobiles| false | string | 被@人手机号
+isAtall | false | bool | @所有人时为ture，否则为false
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401233139326.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
 ## 3.2 link类型
 ```
 {
@@ -82,8 +67,7 @@ title | true | string | 消息标题
 text | true | string |内容消息，如果太长只会显示一部分
 messageUrl | true | string | 点击消息跳转的url
 picUrl | false | string | 图片url
-![line消息]()
-
+![line消息](https://img-blog.csdnimg.cn/20190401233229301.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
 ## 3.3 markdown类型
 ```
 {
@@ -106,8 +90,7 @@ title | true | string | 首屏会话透出的展示内容
 text | true | string | markdown消息格式
 atMobiles| false | string | 被@人手机号（在text内容里要有@手机号）
 isAtall | false | bool | @所有人时为ture，否则为false
-![markdown消息]()
-
+![markdown消息](https://img-blog.csdnimg.cn/20190401233422396.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
 说明：目前只支持markdown语法的子集，具体支持的元素如下：
 ```
 标题
@@ -164,7 +147,7 @@ singleTitle | true | string | 单个按钮的方案（设置此项和singleURL�
 singleURL | true | string | 点击singleTitle按钮触发的URL
 btnOrientation | false | string |0-按钮竖直排列，1-按钮横向排列
 hideAvatar | false | string | 0-正常发消息者头像，1-隐藏发消息者头像
-![]()
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401233534847.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
 
 ### 3.4.2 独立跳转ActionCard类型
 ```
@@ -196,7 +179,7 @@ text | true | string | markdown消息格式
 btns | true | array | 按钮的信息：title-按钮方案，actionURL-点击按钮触发URL
 btnOrientation | false | string | 0-按钮竖直排列，1-按钮横向排列
 hideAvatar | false | string | 0-正常发消息者头像，1-隐藏发消息者头像
-![]()
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401233617732.png)
 ## 3.5 FeedCard类型
 ```
 {
@@ -223,8 +206,7 @@ msgtype | true | string |此消息类型为固定feedCard
 title | true | string | 单条信息文本
 messageURL | true | string |点击单挑信息到跳转链接
 picURL | true | string | 单条信息后面图片的URL
-![]()
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401233733286.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
 # 4.测试自定义机器人
 * 使用命令行工具
 ```
@@ -246,22 +228,23 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
-
+ 
+ 
 public class ChatbotSend {
-
+ 
     public static String WEBHOOK_TOKEN = "https://oapi.dingtalk.com/robot/send?access_token=xxxxxx";
-
+ 
     public static void main(String args[]) throws Exception{
-    
+ 
         HttpClient httpclient = HttpClients.createDefault();
-
+ 
         HttpPost httppost = new HttpPost(WEBHOOK_TOKEN);
         httppost.addHeader("Content-Type", "application/json; charset=utf-8");
-
+ 
         String textMsg = "{ \"msgtype\": \"text\", \"text\": {\"content\": \"我就是我, 是不一样的烟火\"}}";
         StringEntity se = new StringEntity(textMsg, "utf-8");
         httppost.setEntity(se);
-
+ 
         HttpResponse response = httpclient.execute(httppost);
         if (response.getStatusLine().getStatusCode()== HttpStatus.SC_OK){
             String result= EntityUtils.toString(response.getEntity(), "utf-8");
@@ -272,8 +255,8 @@ public class ChatbotSend {
 ```
 * PHP程序测试
 ```
-<?php
-
+<?php  
+  
 function request_by_curl($remote_server, $post_string) {  
     $ch = curl_init();  
     curl_setopt($ch, CURLOPT_URL, $remote_server);
@@ -286,21 +269,109 @@ function request_by_curl($remote_server, $post_string) {
     // curl_setopt ($ch, CURLOPT_SSL_VERIFYHOST, 0); 
     // curl_setopt ($ch, CURLOPT_SSL_VERIFYPEER, 0);
     $data = curl_exec($ch);
-    curl_close($ch);
+    curl_close($ch);  
                
-    return $data;
-}
+    return $data;  
+}  
  
 $webhook = "https://oapi.dingtalk.com/robot/send?access_token=xxxxxx";
 $message="我就是我, 是不一样的烟火";
 $data = array ('msgtype' => 'text','text' => array ('content' => $message));
 $data_string = json_encode($data);
  
-$result = request_by_curl($webhook, $data_string);
+$result = request_by_curl($webhook, $data_string);  
 echo $result;
  
 ?>
 ```
 # 5.注
 * 每个机器人每分钟最多发送20条。
-* 当前机器人尚不支持应答机制。
+* 当前机器人尚不支持应答机制
+
+# 6.个人项目
+&emsp;编写脚本定时执行，监控这一天中的某种指定类型的任务是否成功，前提是改任务会在开始和成功的时候向指定文件中增加一条指定格式的日志。
+&emsp;监控的文件格式：当任务启动时，会向`/data/exportData/${year}/${month}/${day}/import-data-taskflow.${time}`中插入一条以0开头的日志，如果成功了就会插入一条以1开头的日志，如果未成功，则不会插入数据。
+```
+0,任务一,2019-03-17_03:11:16,陈十六,156xxxx16xx
+0,任务二,2019-03-16_16:16:10,小可乐,156xxxx16xx
+1,任务一,2019-03-17_03:16:16,陈十六,156xxxx16xx
+```
+&emsp;执行脚本
+```
+#!/bin/bash
+
+time=$(date -d "-1 day" "+%Y%m%d")
+year=$(date "+%Y")
+month=$(date "+%m")
+day=(date -d "-1 day" "+%d")
+#所要读取文件
+filename="/data/exportData/${year}/${month}/${day}/import-data-taskflow.${time}"
+#成功表
+table0=""
+#失败表
+table1=""
+#按行切分文件
+for line in $(cat $filename)
+do
+    #将行切分为数组
+    line=${line//,/ }
+    arr=($line)
+    #读取开始记录并操作
+    if [ ${arr[0]} -eq 0 ]; then
+        #按行切分文件
+        for line1 in $(cat $filename)
+        do
+            #将行切分为数组
+	    line1=${line1//,/ }
+            arr1=($line1)
+            #设置失败文本格式
+            text="${arr[1]}\\t${arr[2]}\\t${arr[3]}\\t执行失败\\t@${arr[4]}"
+            #读取结束记录并操作
+            if [ ${arr1[0]} -eq 1 ]; then
+                #如果开始记录名在结束记录中也有那么就是执行成功的
+                 if [ ${arr[1]} = ${arr1[1]} ]; then
+                    #设置成功文本格式
+                    text0="${arr[1]}\\t${arr[2]}\\t${arr1[2]}\\t${arr[3]}\\t执行成功"
+                    #将所有成功记录拼接成表格
+                    table0="${table0}\n${text0}"
+                    #并将失败文本格式改为空值
+                    text=""
+                        break
+                 fi
+            fi
+        done
+        #当失败文本格式不为空值进行将失败文本拼接成表格
+        if [ -n "${text}" ]; then
+            table1="${table1}\n${text}"
+        fi
+    fi
+done
+#向钉钉发送消息方法
+function SendMessageToDingding(){
+    # 发送钉钉消息
+    curl "${Dingding_Url}" -H 'Content-Type: application/json' -d "
+    {
+     \"msgtype\":\"text\",
+     \"text\":{\"content\":\"${Body}\"},
+     \"at\":{\"atMobiles\":[\"156xxxx16xx\",\"178xxxx83xx\",\"151xxxx17xx\",\"176xxxx95xx\"],\"isAtAll\":false}
+    }"
+}
+#钉钉机器人url
+Dingding_Url="https://oapi.dingtalk.com/robot/send?access_token=bde9bdd5287ea9a1757dc7e1a517a5a72d87468a0771a14f3757f708008570"
+#钉钉机器人内容格式
+Body="嘿~小伙伴们 小艾提醒您：\n\n------------------${time}同步执行成功名单------------------继续加油哦~\n|\t表名称\t|\t开始时间\t|\t结束时间\t|\t执行人\t|\t是否成功\t|${table0}\n\n------------------${time}同步执行失败名单------------------及时处理哦~\n|\t表名称\t|\t开始时间\t|\t执行人\t|\t是否成功\t|\t请您回复\t|${table1} "
+#调用发送方法
+SendMessageToDingding $Body $Dingding_Url
+```
+&emsp;结果展示
+```
+嘿~小伙伴们 小艾提醒您：
+
+-----------------------20190331同步执行成功表-----------------------继续加油哦~
+|  表名称  |  开始时间  |  结束时间  |  执行人  |  是否成功  |
+任务一  2019-03-17_03:11:16  2019-03-17_03:16:16  陈十六  执行成功
+
+-----------------------0190331同步执行失败表-----------------------及时处理哦~
+|  表名称  |  开始时间  |  执行人  |  是否成功  |  请您回复  |
+任务二  2019-03-16_16:16:10  小可乐  执行失败  @小可乐
+```
