@@ -42,15 +42,14 @@ comments: true
  }
 ```
 
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
+| 参数 | 必选 | 类型 | 说明 |
+|:--------|:-------:|--------:|--------:|
+| msgtype   | true   | string   | 此消息类型为固定text |
+| content   | true   | string   | 内容消息 |
 |----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
+| atMobiles   | false   | string   | 被@人手机号
+| isAtall   | false   | bool   | @所有人时为ture，否则为false
 |=====
-| Foot1   | Foot2   | Foot3
 {: rules="groups"}
 
 参数 | 必选 | 类型 | 说明
@@ -59,6 +58,7 @@ msgtype | true | string |此消息类型为固定text
 content | true | string |内容消息
 atMobiles| false | string | 被@人手机号
 isAtall | false | bool | @所有人时为ture，否则为false
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401233139326.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
 ## 3.2 link类型
 ```
