@@ -260,7 +260,7 @@ public class ChatbotSend {
 ```
 * PHP程序测试
 ```
-<?php  
+<?php
 
 function request_by_curl($remote_server, $post_string) {  
     $ch = curl_init();  
@@ -274,21 +274,21 @@ function request_by_curl($remote_server, $post_string) {
     // curl_setopt ($ch, CURLOPT_SSL_VERIFYHOST, 0); 
     // curl_setopt ($ch, CURLOPT_SSL_VERIFYPEER, 0);
     $data = curl_exec($ch);
-    curl_close($ch);  
+    curl_close($ch);
                
-    return $data;  
-}  
+    return $data;
+}
  
 $webhook = "https://oapi.dingtalk.com/robot/send?access_token=xxxxxx";
 $message="我就是我, 是不一样的烟火";
 $data = array ('msgtype' => 'text','text' => array ('content' => $message));
 $data_string = json_encode($data);
  
-$result = request_by_curl($webhook, $data_string);  
+$result = request_by_curl($webhook, $data_string);
 echo $result;
  
 ?>
 ```
 # 5.注
 * 每个机器人每分钟最多发送20条。
-* 当前机器人尚不支持应答机制
+* 当前机器人尚不支持应答机制。
