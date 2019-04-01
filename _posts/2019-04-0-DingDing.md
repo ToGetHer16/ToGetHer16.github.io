@@ -18,7 +18,9 @@ comments: true
 &emsp;点击左上角自己的头像，点击`机器人管理`，在机器人管理页面选择`自定义机器人`，输入机器人名字并选择要发送消息的群。如果需要的话，可以为机器人设置一个头像，点击`完成`。并复制机器人对应的Webhook地址。
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401232834630.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401232900488.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401232914431.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
 
 # 2.使用自定义机器人
@@ -79,6 +81,7 @@ picUrl | false | string | 图片url
 ![line消息](https://img-blog.csdnimg.cn/20190401233229301.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
 
 ## 3.3 markdown类型
+
 ```
 {
      "msgtype": "markdown",
@@ -138,7 +141,9 @@ isAtall | false | bool | @所有人时为ture，否则为false
 ```
 
 ## 3.4 ActionCard
+
 ### 3.4.1 整体跳转ActionCard类型
+
 ```
 {
     "actionCard": {
