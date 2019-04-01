@@ -51,6 +51,7 @@ comments: true
 |=====
 | Foot1   | Foot2   | Foot3
 {: rules="groups"}
+
 参数 | 必选 | 类型 | 说明
 :-: | :-: | :-: | :-: |
 msgtype | true | string |此消息类型为固定text
