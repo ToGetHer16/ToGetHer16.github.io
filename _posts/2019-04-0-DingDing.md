@@ -9,6 +9,7 @@ tag:
 - shell
 - 消息
 - 脚本
+feature: http://poykjx8e5.bkt.clouddn.com/PinkCloud.png
 comments: true
 ---
 # 1.获取自定义机器人
