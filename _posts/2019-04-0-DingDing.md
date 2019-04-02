@@ -17,11 +17,11 @@ comments: true
 # 1.获取自定义机器人
 &emsp;点击左上角自己的头像，点击`机器人管理`，在机器人管理页面选择`自定义机器人`，输入机器人名字并选择要发送消息的群。如果需要的话，可以为机器人设置一个头像，点击`完成`。并复制机器人对应的Webhook地址。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401232834630.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
+![获取机器人](https://user-images.githubusercontent.com/45778381/55420612-0482e800-55aa-11e9-997b-0e33ad351e98.png)
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401232900488.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
+![获取机器人2](https://user-images.githubusercontent.com/45778381/55420650-18c6e500-55aa-11e9-9448-7a96556924d0.png)
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401232914431.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
+![获取机器人3](https://user-images.githubusercontent.com/45778381/55420674-2d0ae200-55aa-11e9-8674-6b04667e467a.png)
 
 # 2.使用自定义机器人
 * 获取到Webhook地址后，用户可以使用任何方式访问这个地址发起HTTP POST请求，即可实现给群组发送消息。注意，发起POST请求时，必须要将字符集编码设置成UTF-8.
@@ -30,6 +30,7 @@ comments: true
 
 # 3.消息类型及数据格式
 ## 3.1 文本类型（text）
+
 &emsp;文本类型
 ```
 {
@@ -54,7 +55,7 @@ comments: true
 |isAtall | false | bool | @所有人时为ture，否则为false|
 {: rules="groups"}
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401233139326.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
+![Snipaste_2019-04-01_23-31-17](https://user-images.githubusercontent.com/45778381/55420740-5592dc00-55aa-11e9-945a-34edcc21fef3.png)
 
 ## 3.2 link类型
 ```
@@ -78,7 +79,7 @@ messageUrl | true | string | 点击消息跳转的url
 picUrl | false | string | 图片url
 {: rules="groups"}
 
-![line消息](https://img-blog.csdnimg.cn/20190401233229301.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
+![Snipaste_2019-04-01_23-32-14](https://user-images.githubusercontent.com/45778381/55420833-82df8a00-55aa-11e9-8bf4-263be0717766.png)
 
 ## 3.3 markdown类型
 
@@ -106,7 +107,7 @@ atMobiles| false | string | 被@人手机号（在text内容里要有@手机号�
 isAtall | false | bool | @所有人时为ture，否则为false
 {: rules="groups"}
 
-![markdown消息](https://img-blog.csdnimg.cn/20190401233422396.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
+![Snipaste_2019-04-01_23-34-04](https://user-images.githubusercontent.com/45778381/55420866-94c12d00-55aa-11e9-842c-7989ee3f1748.png)
 
 说明：目前只支持markdown语法的子集，具体支持的元素如下：
 ```
@@ -169,7 +170,7 @@ btnOrientation | false | string |0-按钮竖直排列，1-按钮横向排列
 hideAvatar | false | string | 0-正常发消息者头像，1-隐藏发消息者头像
 {: rules="groups"}
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401233534847.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
+![Snipaste_2019-04-01_23-35-11](https://user-images.githubusercontent.com/45778381/55420957-c508cb80-55aa-11e9-878d-c54693a12581.png)
 
 ### 3.4.2 独立跳转ActionCard类型
 ```
@@ -204,7 +205,7 @@ btnOrientation | false | string | 0-按钮竖直排列，1-按钮横向排列
 hideAvatar | false | string | 0-正常发消息者头像，1-隐藏发消息者头像
 {: rules="groups"}
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401233617732.png)
+![Snipaste_2019-04-01_23-36-05](https://user-images.githubusercontent.com/45778381/55420997-d520ab00-55aa-11e9-8842-8512085799b7.png)
 
 ## 3.5 FeedCard类型
 ```
@@ -235,7 +236,7 @@ messageURL | true | string |点击单挑信息到跳转链接
 picURL | true | string | 单条信息后面图片的URL
 {: rules="groups"}
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190401233733286.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1RvR2V0SGVyMTY=,size_16,color_FFFFFF,t_70)
+![Snipaste_2019-04-01_23-37-20](https://user-images.githubusercontent.com/45778381/55421036-ec5f9880-55aa-11e9-9c47-ba0e5b30b833.png)
 
 # 4.测试自定义机器人
 
