@@ -9,7 +9,7 @@ tag:
 - shell
 - 消息
 - 脚本
-feature: https://user-images.githubusercontent.com/45778381/55421187-45c7c780-55ab-11e9-922d-ce698c67094c.png
+feature: "https://user-images.githubusercontent.com/45778381/55421187-45c7c780-55ab-11e9-922d-ce698c67094c.png"
 comments: true
 ---
 <center><a href="https://open-doc.dingtalk.com/docs/doc.htm?spm=a219a.7386797.0.0.EtVzwK&source=search&treeId=257&articleId=105735&docType=1#s0"><b>十六的传送门</b></a></center>
